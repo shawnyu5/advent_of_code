@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func Day1() {
 	file, err := os.Open("data.txt")
 	if err != nil {
 		log.Fatal(err)
